@@ -1,0 +1,17 @@
+1- Framework will be divided into 3 layers
+a) Core Layer-For all selenium related action like web driver, Repository etc.
+b) WidgetLayer- Steps and methods to perform UI action will be defined in this layer.
+c) AutomationTestLayer- It will contains testcases/feature files and associated resources.
+
+2- Logger will be implements.
+3- Assertions, Exception handling can be done in better way.
+4- OR can be implemented as xml or JSON.
+5- Extent reporting can be added to this.
+6- More verification points will be added.
+7- Generic waits/implicit waits can be used.
+8- Spring usage will be added to framework.
+9- Inheritance and interfaces will be implemented for better code maintenance.
+10- Test data can be maintained in database.
+
+Any many more depending on need
+

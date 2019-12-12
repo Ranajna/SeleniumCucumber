@@ -1,0 +1,16 @@
+1- Clone Repository https://github.com/Ranajna/SeleniumCucumber.git.
+2- Switch you workplace ;
+to some new location.
+3- Import this project as existing maven project.
+4- Run Maven cycle and update project or Force update.
+5- Resolve errors if any
+6- Ensure you have either chrome 76.0.3809.100 or you need compatible verion of Chrome driver already present.
+7- Go to featue file presnt at:src/test/resources/feature.
+8- Right click on this->Run->Run as run configuration
+9- Add new configuration under maven build and run below goals	
+clean test -P UAT -DforkCount=0 -Dcucumber.options="--tags @sample"
+10- After execution refer report at path.
+target/reports/index.html
+		
+
+	          

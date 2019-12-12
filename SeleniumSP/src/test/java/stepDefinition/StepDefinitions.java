@@ -5,31 +5,14 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
+import repository.PageElement;
 import stepAction.StepActions;
 
 
 public class StepDefinitions {
 	
 StepActions sampleStepActions=new StepActions();
-  static WebDriver driver;
 
-  public static WebDriver getBrowserDriver()
-  {
-	return driver;
-  }
-  
-  @Before
-   public void beforeScenario() 
-  { 
-    	sampleStepActions.startUp();	
-   }
-
-   @After
-   public void afterScenario() 
-   {
-	   sampleStepActions.tearDown();
-   }
-   
    @Given("^user waits for \"(.*)\" milli seconds$")
    public void systemWait(Long sec) throws Exception{
 	   Thread.sleep(sec);
@@ -85,7 +68,7 @@ StepActions sampleStepActions=new StepActions();
 		}		
 	}
 	
-	@Given("^user compares expected value and \"(.*)\" actual value of element \"(.*)\"$")
+	@Given("^user compares expected value \"(.*)\" actual value of element \"(.*)\"$")
 	public void compareExpectedAndActualValue(String expectedValue,String textboxName) throws Exception{		
 		boolean result = sampleStepActions.compareValue(expectedValue,textboxName);
 		if(!result) {
@@ -119,11 +102,11 @@ StepActions sampleStepActions=new StepActions();
         }
 	}
         
-    	@Given("^user verifies expected key value \"(.*)\" is equal to actual element value \"(.*)\"$")
-    	public void compareKeyAndActualValue(String elementName,String variableName) throws Exception{
-    	    boolean result=sampleStepActions.comparesKeyValueWithActualValue(elementName,variableName);
+    	@Given("^user verifies expected key value \"(.*)\" is equal to actual element value$")
+    	public void compareKeyAndActualValue(String variableName) throws Exception{
+    	    boolean result=sampleStepActions.comparesKeyValueWithActualValue(variableName);
     	      if(!result) {
-    	        throw new Exception("Error while verifying '"+elementName+"' and '"+variableName+"'");
+    	        throw new Exception("Error while verifying '"+variableName+"'");
     	    }
     	}
 	

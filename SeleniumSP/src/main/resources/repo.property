@@ -1,8 +1,4 @@
 RunMsg = Repository Running
-
-
-
-
     
 home@signin = //a[@class='login']
 
@@ -62,9 +58,11 @@ save = //span[contains(text(),'Save')]
 
 ordercomplete=//*[@id="center_column"]/div/p/strong
 
-orderreferenceno=//*[@id="center_column"]/div/br[2]/following-sibling::text()[7]
-
+orderr=//*[@id="center_column"]/div/br[2]/following-sibling::text()[7]
+orderreferenceno=//*[@id="center_column"]/div
 myorders=//*[@id="footer"]//ul//a[contains(text(),'My orders')]
+
+signout=//*[@title="Log me out"]
 
 
 

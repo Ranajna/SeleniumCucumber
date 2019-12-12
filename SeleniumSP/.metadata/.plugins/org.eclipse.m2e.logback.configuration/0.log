@@ -16,3 +16,4 @@ java.io.FileNotFoundException: D:\SeleniumSP\SeleniumSP\.metadata\.plugins\org.e
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2338) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:521) [org.eclipse.ui.ide.application_1.3.100.v20181129-0817.jar:na]
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.15.0.v20181123-1505.jar:na]
+2019-12-12 16:58:04,403 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
