@@ -10,20 +10,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import bdd.ScenarionContext;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class BrowseDriver {
+	  private static final Logger logger = LogManager.getLogger(BrowseDriver.class);
 	  public static WebDriver driver;	  
 	  public static WebDriver getBrowserDriver()
 	  {
 		  return driver;
-	  }
-	  
-//	  @Before
-//	   public void beforeScenario() 
-//	  { 
-//	    	startUp();	
-//	   }
-	  
+	  }	  
+  
 	  static {
 			
 		  	startUp();
@@ -35,14 +32,12 @@ public class BrowseDriver {
 	   {
 		   tearDown();
 	   }
-	
-//	static Repository repository = new Repository();
-	   ScenarionContext scenariocontext = new ScenarionContext();
 
 	private static void startUp() {
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		logger.info(" >>>>>>>-------Opening Browser Driver");
 			
 	}
 
@@ -53,12 +48,14 @@ public class BrowseDriver {
 			e.printStackTrace();
 		}
 		driver.close();
+		logger.info(" >>>>>>>-------Closing Browser Driver");
 	}
 
 	private static final Thread FINAL_THREAD = new Thread() {
 		@Override
 		public void run() {
 			driver.quit();
+			logger.info(" >>>>>>>-------Closing Browser Driver");
 		}
 	};
 
@@ -68,6 +65,7 @@ public class BrowseDriver {
 
 	public void closeWindow() {
 		driver.close();
+		logger.info(" >>>>>>>-------Closing Driver");
 	}	
 
 	

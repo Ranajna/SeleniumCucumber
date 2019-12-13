@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" shutdownHook="disable">
+
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MMM-yyyy HH:mm:ss.SSS}| %t | %p |%c{4}:%L|:- %msg%n"/>
+        </Console>
+        
+        <RollingFile name="LogToFile" filePattern="logs/executionLogs%d{yyyyMMMdd'T'HH.mm.ss}.log">
+            <PatternLayout pattern="%d{dd-MMM-yyyy HH:mm:ss.SSS}| %t | %p |%c{4}:%L|:- %msg%n"/>
+            <OnStartupTriggeringPolicy />            
+        </RollingFile>             
+    </Appenders>
+    
+    <Loggers>
+    	<Logger name="org.springframework" level="WARN"/> 
+        <Root level="debug">
+            <AppenderRef ref="LogToConsole"/>
+            <AppenderRef ref="LogToFile"/>
+        </Root>        
+    </Loggers>  
+</Configuration>

@@ -1,0 +1,108 @@
+13-Dec-2019 13:02:34.870| main | INFO |base.Initialize:20|:- ++ Initializing Framework
+13-Dec-2019 13:02:34.877| main | INFO |base.Initialize:21|:- ++ Loading Repo Property File
+13-Dec-2019 13:02:34.877| main | INFO |base.Initialize:25|:- ++ Loading Repo Property File
+13-Dec-2019 13:02:34.877| main | INFO |base.Initialize:26|:- ++ Loading EnvironmentConfig File
+13-Dec-2019 13:02:34.877| main | INFO |stepAction.StepActions:39|:- ++ Opening the application
+13-Dec-2019 13:02:44.947| main | INFO |browser.BrowseDriver:40|:-  >>>>>>>-------Opening Browser Driver
+13-Dec-2019 13:02:53.181| main | INFO |stepAction.StepActions:57|:- ++ Performing Login to the application
+13-Dec-2019 13:02:53.181| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:02:53.182| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:53.182| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:02:54.976| main | INFO |stepAction.StepActions:32|:- ++ Entering Value
+13-Dec-2019 13:02:54.977| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:54.977| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:02:55.120| main | INFO |stepAction.StepActions:32|:- ++ Entering Value
+13-Dec-2019 13:02:55.121| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:55.121| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:02:55.206| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:02:55.207| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:55.207| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:02:56.847| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:02:56.848| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:56.849| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:02:59.161| main | INFO |stepAction.StepActions:45|:- ++ Hovering the element
+13-Dec-2019 13:02:59.162| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:59.163| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:02:59.179| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:59.180| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:02:59.475| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:02:59.476| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:02:59.477| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:01.649| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:01.649| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:01.650| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:02.860| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:02.861| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:02.861| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:04.055| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:04.056| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:04.056| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:04.118| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:04.119| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:04.119| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:05.519| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:05.519| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:05.520| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:06.612| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:06.612| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:06.613| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:09.119| main | INFO |stepAction.StepActions:85|:- ++ Comparing expected and actual strings
+13-Dec-2019 13:03:09.120| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:09.120| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:09.145| main | INFO |stepAction.StepActions:96|:- ++ fetching and saving value to map
+13-Dec-2019 13:03:09.146| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:09.146| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:14.171| main | INFO |stepAction.StepActions:105|:- ++ Splitting order details
+13-Dec-2019 13:03:19.179| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:19.182| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:19.183| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:21.174| main | INFO |stepAction.StepActions:115|:- ++ comparing key and actual value
+13-Dec-2019 13:03:21.660| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:21.660| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:21.660| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:23.780| main | INFO |base.Initialize:20|:- ++ Initializing Framework
+13-Dec-2019 13:03:23.781| main | INFO |base.Initialize:21|:- ++ Loading Repo Property File
+13-Dec-2019 13:03:23.782| main | INFO |base.Initialize:25|:- ++ Loading Repo Property File
+13-Dec-2019 13:03:23.782| main | INFO |base.Initialize:26|:- ++ Loading EnvironmentConfig File
+13-Dec-2019 13:03:23.783| main | INFO |stepAction.StepActions:39|:- ++ Opening the application
+13-Dec-2019 13:03:26.689| main | INFO |stepAction.StepActions:57|:- ++ Performing Login to the application
+13-Dec-2019 13:03:26.689| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:26.689| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:26.690| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:28.389| main | INFO |stepAction.StepActions:32|:- ++ Entering Value
+13-Dec-2019 13:03:28.390| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:28.390| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:28.492| main | INFO |stepAction.StepActions:32|:- ++ Entering Value
+13-Dec-2019 13:03:28.494| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:28.494| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:28.574| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:28.574| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:28.575| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:30.132| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:30.133| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:30.134| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:31.260| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:31.261| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:31.261| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:32.654| main | INFO |stepAction.StepActions:32|:- ++ Entering Value
+13-Dec-2019 13:03:32.654| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:32.655| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:32.739| main | INFO |stepAction.StepActions:32|:- ++ Entering Value
+13-Dec-2019 13:03:32.739| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:32.740| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:32.820| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:32.821| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:32.821| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:33.991| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:33.991| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:33.992| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:35.339| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:35.340| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:35.340| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:36.845| main | INFO |stepAction.StepActions:66|:- ++ Comparing expected and actual value
+13-Dec-2019 13:03:36.845| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:36.846| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:37.884| main | INFO |stepAction.StepActions:25|:- ++ Clicking on element
+13-Dec-2019 13:03:37.884| main | INFO |base.Initialize:24|:- ++ Attempting to find the element
+13-Dec-2019 13:03:37.890| main | INFO |base.Initialize:15|:- ++ Fetching Xpath from OR
+13-Dec-2019 13:03:40.917| Thread-3 | INFO |browser.BrowseDriver:58|:-  >>>>>>>-------Closing Browser Driver
